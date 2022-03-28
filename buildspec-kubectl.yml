@@ -4,6 +4,7 @@ env:
   variables:
     _PROJECT_NAME: "team01-gateway"
 
+
 phases:
   install:
     runtime-versions:
