@@ -45,9 +45,9 @@ phases:
           kind: Service
           metadata:
             name: $_PROJECT_NAME
+            namespace: bluesquare
             labels:
               app: $_PROJECT_NAME
-              namespace: bluesquare
           spec:
             ports:
               - port: 8080
@@ -61,9 +61,9 @@ phases:
           kind: Deployment
           metadata:
             name: $_PROJECT_NAME
+            namespace: bluesquare
             labels:
               app: $_PROJECT_NAME
-              namespace: bluesquare
           spec:
             replicas: 1
             selector:
