@@ -47,6 +47,7 @@ phases:
             name: $_PROJECT_NAME
             labels:
               app: $_PROJECT_NAME
+              namespace: bluesquare
           spec:
             ports:
               - port: 8080
@@ -62,6 +63,7 @@ phases:
             name: $_PROJECT_NAME
             labels:
               app: $_PROJECT_NAME
+              namespace: bluesquare
           spec:
             replicas: 1
             selector:
