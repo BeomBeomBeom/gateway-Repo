@@ -2,15 +2,7 @@
 #  port: 8088
 #
 #---
-management:
-  endpoint:
-    health:
-      probes:
-        enabled: true
-      livenessState:
-        enabled: true
-      readinessState:
-        enabled: true
+
 spring:
   profiles: default
   cloud:
