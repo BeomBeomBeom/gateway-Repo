@@ -37,7 +37,7 @@
         	 	   <artifactId>spring-cloud-sleuth-zipkin</artifactId>
        		   </dependency>
 	</dependencies>
-	</dependencies>
+
 
 	<dependencyManagement>
 		<dependencies>
