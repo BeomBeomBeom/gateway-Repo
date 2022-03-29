@@ -82,7 +82,7 @@ phases:
                         path: /actuator/health
                         port: 8080
                       initialDelaySeconds: 15
-                      timeoutSeconds: 2
+                      timeoutSeconds: 5
                       periodSeconds: 5
                       failureThreshold: 15
                     livenessProbe:
