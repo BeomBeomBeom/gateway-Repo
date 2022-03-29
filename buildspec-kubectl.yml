@@ -62,6 +62,8 @@ phases:
             name: $_PROJECT_NAME
             labels:
               app: $_PROJECT_NAME
+            annotations:
+              sidecar.istio.io/rewriteAppHTTPProbers: "false"
           spec:
             replicas: 1
             selector:
