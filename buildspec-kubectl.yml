@@ -81,7 +81,7 @@ phases:
                       httpGet:
                         path: /actuator/health
                         port: 8080
-                      initialDelaySeconds: 30
+                      initialDelaySeconds: 60
                       timeoutSeconds: 60
                       periodSeconds: 5
                       failureThreshold: 3
